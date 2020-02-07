@@ -5,22 +5,22 @@ html {
   @media (max-width: 480px) {
     body,
     html {
-      font-size: 14px; } }
+      font-size: 15px; } }
   @media (min-width: 481px) and (max-width: 767px) {
     body,
     html {
-      font-size: 14px; } }
+      font-size: 15px; } }
   @media (min-width: 768px) and (max-width: 991px) {
     body,
     html {
-      font-size: 15px; } }
+      font-size: 16px; } }
   @media (min-width: 992px) {
     body,
     html {
-      font-size: 16px; } }
+      font-size: 17px; } }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'Helvetica Neue', Arial, sans-serif; }
 
 hr {
   max-width: 50px;
