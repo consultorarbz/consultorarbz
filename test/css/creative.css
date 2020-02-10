@@ -76,7 +76,7 @@ p {
   color: rgba(255, 255, 255, 0.7); }
 
 section {
-  padding: 120px 0;
+  padding: 50px 0;
   border-bottom: 1px #f1f1f1 solid; }
 
 body.sub #main {
@@ -583,10 +583,16 @@ section#equipo .profile {
       width: 50%; } }
   section#equipo .profile img.fotoperfil {
     margin-bottom: 0.5rem;
-    width: 70%; }
+    width: 65%; }
   section#equipo .profile .name {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: #3ba86d;
     margin-bottom: 0.3em; }
   section#equipo .profile .title {
+    font-size: 0.9rem;
     margin-bottom: 0px; }
+  section#equipo .profile .subtitle {
+    font-size: 0.9rem; }
+
+section#clientes hr {
+  margin-left: 0px; }
