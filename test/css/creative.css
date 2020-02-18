@@ -613,3 +613,6 @@ section#equipo .profile {
 
 section#clientes hr {
   margin-left: 0px; }
+
+section#clientes p {
+  margin-bottom: 9px; }
