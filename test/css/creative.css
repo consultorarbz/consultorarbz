@@ -577,6 +577,7 @@ section#equipo .profile-wrapper {
       align-items: center; } }
   @media (min-width: 767px) {
     section#equipo .profile-wrapper {
+      margin-top: 1em;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
       -ms-flex-direction: row;
