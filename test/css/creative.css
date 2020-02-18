@@ -263,6 +263,9 @@ div.clasescta h2 {
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #3ba86d; }
+  #mainNav .navbar-img-brand {
+    width: 250px;
+    height: auto; }
   #mainNav .navbar-toggle {
     font-size: 12px;
     font-weight: 700;
@@ -270,7 +273,7 @@ div.clasescta h2 {
     color: #222222; }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus,
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     color: #222222; }
@@ -306,6 +309,9 @@ div.clasescta h2 {
           color: #3ba86d; }
           #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
             color: #3ba86d; }
+        #mainNav.navbar-shrink .navbar-img-brand {
+          width: 250px;
+          height: auto; }
         #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
         #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
           color: #222222; }
