@@ -549,11 +549,15 @@ section.social .socialwrapper {
 
 footer {
   font-size: 0.8rem; }
+  @media (max-width: 520px) {
+    footer {
+      font-size: 0.64rem; } }
   footer div.call-to-action {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
   footer h2 {
+    font-size: 2.3em !important;
     margin-bottom: 10px !important; }
   footer h3.phonenumber {
     font-size: 2em; }
