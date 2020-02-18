@@ -616,3 +616,45 @@ section#clientes hr {
 
 section#clientes p {
   margin-bottom: 9px; }
+
+section#areas .cards-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  @media (max-width: 767px) {
+    section#areas .cards-wrapper {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; } }
+  @media (min-width: 768px) {
+    section#areas .cards-wrapper {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+      justify-content: space-evenly;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start; } }
+
+section#areas .card {
+  background-color: #fcfcfc;
+  padding: 1em 1em;
+  margin-bottom: 0px; }
+  @media (max-width: 767px) {
+    section#areas .card {
+      margin: 0.2em auto 0.2em auto; } }
+  @media (min-width: 768px) {
+    section#areas .card {
+      margin: auto 0.2em auto 0.2em; }
+      section#areas .card ul {
+        margin-bottom: 0px;
+        padding-left: 1em; } }
+  section#areas .card h3 {
+    color: #3ba86d; }

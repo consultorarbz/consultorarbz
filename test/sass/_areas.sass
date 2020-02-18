@@ -1,0 +1,25 @@
+section#areas
+	.cards-wrapper
+		display: flex
+		@media (max-width: 767px)
+			//color: green
+			flex-direction: column
+			align-items: center
+		@media (min-width: 768px)
+		 flex-direction: row
+		 justify-content: space-evenly
+		 align-items: flex-start
+	.card
+		background-color: lighten($theme-gray2, 4.5%)
+		padding: 1em 1em
+		margin-bottom: 0px
+		@media (max-width: 767px)
+			margin: 0.2em auto 0.2em auto
+		@media (min-width: 768px)
+			margin: auto 0.2em auto 0.2em
+
+			ul
+				margin-bottom: 0px
+				padding-left: 1em
+		h3
+			color: $theme-primary
