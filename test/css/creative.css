@@ -639,9 +639,9 @@ section#areas .cards-wrapper {
       -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
       justify-content: space-evenly;
-      -webkit-box-align: start;
-      -ms-flex-align: start;
-      align-items: flex-start; } }
+      -webkit-box-align: start !important;
+      -ms-flex-align: start !important;
+      align-items: flex-start !important; } }
 
 section#areas .card {
   background-color: #fcfcfc;
@@ -652,9 +652,10 @@ section#areas .card {
       margin: 0.2em auto 0.2em auto; } }
   @media (min-width: 768px) {
     section#areas .card {
-      margin: auto 0.2em auto 0.2em; }
-      section#areas .card ul {
-        margin-bottom: 0px;
-        padding-left: 1em; } }
+      margin-left: 0.2em;
+      margin-right: 0.2em; } }
+  section#areas .card ul {
+    margin-bottom: 0px;
+    padding-left: 1em; }
   section#areas .card h3 {
     color: #3ba86d; }
