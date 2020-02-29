@@ -617,6 +617,24 @@ section#clientes hr {
 section#clientes p {
   margin-bottom: 9px; }
 
+section#clientes .logo-wrapper {
+  width: 100%; }
+  section#clientes .logo-wrapper img.logo {
+    height: auto;
+    margin-top: 0.5em; }
+    @media (max-width: 370px) {
+      section#clientes .logo-wrapper img.logo {
+        width: 30vw; } }
+    @media (min-width: 371px) and (max-width: 577px) {
+      section#clientes .logo-wrapper img.logo {
+        width: 29vw; } }
+    @media (min-width: 578px) and (max-width: 767px) {
+      section#clientes .logo-wrapper img.logo {
+        width: 26vw; } }
+    @media (min-width: 768px) {
+      section#clientes .logo-wrapper img.logo {
+        width: 16vw; } }
+
 section#areas .cards-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
