@@ -569,33 +569,11 @@ section#equipo .persona a {
   color: inherit; }
 
 section#equipo .persona .name {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #3ba86d; }
 
 section#equipo .persona .title {
-  font-size: 0.9rem; }
-
-section#equipo .profile {
-  width: 14em;
-  height: auto; }
-  @media (max-width: 767px) {
-    section#equipo .profile {
-      margin-bottom: 0.8em; } }
-  @media (max-width: 767px) {
-    section#equipo .profile {
-      width: 50%; } }
-  section#equipo .profile img.fotoperfil {
-    margin-bottom: 0.5rem;
-    width: 65%; }
-  section#equipo .profile .name {
-    font-size: 1.1rem;
-    color: #3ba86d;
-    margin-bottom: 0.3em; }
-  section#equipo .profile .title {
-    font-size: 0.9rem;
-    margin-bottom: 0px; }
-  section#equipo .profile .subtitle {
-    font-size: 0.9rem; }
+  font-size: 0.8rem; }
 
 section#clientes hr {
   margin-left: 0px; }
