@@ -562,6 +562,19 @@ footer {
   footer h3.phonenumber {
     font-size: 2em; }
 
+section#equipo .persona h2, section#equipo .persona p {
+  display: inline; }
+
+section#equipo .persona a {
+  color: inherit; }
+
+section#equipo .persona .name {
+  font-size: 1rem;
+  color: #3ba86d; }
+
+section#equipo .persona .title {
+  font-size: 0.9rem; }
+
 section#equipo .profile-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
