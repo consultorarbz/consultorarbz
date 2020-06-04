@@ -13,11 +13,11 @@ html {
   @media (min-width: 768px) and (max-width: 991px) {
     body,
     html {
-      font-size: 16px; } }
+      font-size: 15px; } }
   @media (min-width: 992px) {
     body,
     html {
-      font-size: 17px; } }
+      font-size: 15px; } }
 
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif; }
@@ -243,10 +243,10 @@ div.clasescta h2 {
 @media (min-width: 992px) {
   .row h2,
   .container h2 {
-    font-size: 2rem; }
+    font-size: 1.5rem; }
   .row h3,
   .container h3 {
-    font-size: 1.2em; } }
+    font-size: 1em; } }
 
 #mainNav {
   border-color: rgba(105, 90, 94, 0.05);
@@ -575,33 +575,6 @@ section#equipo .persona .name {
 section#equipo .persona .title {
   font-size: 0.9rem; }
 
-section#equipo .profile-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-  @media (max-width: 767px) {
-    section#equipo .profile-wrapper {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center; } }
-  @media (min-width: 767px) {
-    section#equipo .profile-wrapper {
-      margin-top: 1em;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-      flex-direction: row;
-      -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-      justify-content: space-evenly;
-      -webkit-box-align: start;
-      -ms-flex-align: start;
-      align-items: flex-start; } }
-
 section#equipo .profile {
   width: 14em;
   height: auto; }
@@ -697,6 +670,17 @@ section#areas .card {
       margin: 0.2em auto 0.2em auto; } }
   @media (min-width: 768px) {
     section#areas .card {
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
       margin-left: 0.2em;
       margin-right: 0.2em; } }
   section#areas .card ul {
